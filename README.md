@@ -2,17 +2,7 @@
 `svdic` is a tool developed using singular value decomposition (*SVD*) for image compression.
 
 ## Prerequisites 
-This project uses [Tkinter](https://github.com/python/cpython/blob/main/Modules/_tkinter.c) for the GUI. Depending on your OS, you may need to install it manually.
-
-### For Linux (Ubuntu/Debian) 
-```
-sudo apt update  
-sudo apt install python3-tk
-
-```
-
-### For Windows
-Tkinter is usually included with the standard Python installer.
+This project uses [Tkinter](https://github.com/python/cpython/blob/main/Modules/_tkinter.c) as well as [Matplotlib](https://github.com/matplotlib/matplotlib) for the GUI. Depending on your OS, you may need to install it manually.
 
 ## Installation
 ``` 
@@ -20,6 +10,10 @@ git clone https://github.com/FerRojasChoco/svdic.git
 cd svdic
 ```
 
+### Using pip
+```
+pip install -r requirements.txt
+```
 ## Usage
 
 
