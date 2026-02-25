@@ -15,7 +15,20 @@ cd svdic
 pip install -r requirements.txt
 ```
 ## Usage
+```
+python3 interfaceGUI.py
+```
+![Program Interface: Image Compressor](./sample_images/ui.png)  
+Select whether the compression will use grayscale or the original colors, then choose an image to be compressed.
+![View of the original image](./sample_images/original_image.png)
+The provided image is first shown, close the viewer and wait a moment until the program displays one version of the compressed image (e.g: *k=5*), repeat the process so all the versions are displayed, then keep the one you prefer.
+![Compressed image with k=5](./sample_images/rank_5.png)
+![Compressed image with k=200](./sample_images/rank_200.png)
+In this example we can see how different values for "*k*" impact on the image. The lower the quality, the lower the size of the file.  
+All images are then saved in the root folder of the project.  
 
+### Author's note
+Further development of the project for including bulk image processing, optimization, and a more intuitive procedure for the saved images process is to be expected.
 
 ## Features
 *Compression Modes*:
