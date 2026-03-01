@@ -1,4 +1,6 @@
 # svdic
+![Python 3.12.3](https://img.shields.io/badge/python-3.12.3-blue.svg?logo=python&logoColor=white)  
+
 `svdic` is a tool developed using singular value decomposition (*SVD*) for image compression.
 
 ## Prerequisites 
