@@ -1,5 +1,10 @@
 # svdic
-![Python 3.12.3](https://img.shields.io/badge/python-3.12.3-blue.svg?logo=python&logoColor=white)  
+![Python 3.12.3](https://img.shields.io/badge/python-3.12.3-blue.svg?logo=python&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/matplotlib-%23ffffff.svg?logo=matplotlib&logoColor=black)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?logo=numpy&logoColor=white)
+![Pillow](https://img.shields.io/badge/Pillow-blue?logo=python&logoColor=white)
+![CustomTkinter](https://img.shields.io/badge/CustomTkinter-blue)  
+
 
 `svdic` is a tool developed using singular value decomposition (*SVD*) for image compression.
 
